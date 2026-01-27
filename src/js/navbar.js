@@ -2,7 +2,7 @@ function Navbar() {
 
     const MENUDATA = [
         { icons: 'fas fa-home mr-1', name: "Home", link: "index.html" },
-        { icons: 'fas fa-folder-open mr-1', name: "Projects", link: "pro.html" },
+        { icons: 'fas fa-folder-open mr-1', name: "Departments", link: "pro.html" },
         { icons: 'fas fa-users mr-1', name: "Students", link: "cards.html" },
         { icons: 'fas fa-info-circle mr-1', name: "About", link:"about1.html" },
     ];
@@ -54,7 +54,8 @@ function Navbar() {
             </div>
         </div>
 
-        <div id="mobile-menu" class="md:hidden px-4 gap-5 pb-4 flex items-center flex-col">
+        <div id="mobile-menu" class="hidden md:hidden px-4 gap-5 pb-4 flex items-center flex-col">
+
         ${MENU}
          ${Auth}
         </div>
